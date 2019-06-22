@@ -367,6 +367,11 @@
         This directive must be set in &php.ini; For example, you 
         cannot set this in &httpd.conf;.
        </para>
+       <note>
+        <para>
+         Since PHP 7.4.0 you can disable <function>eval</function> with this ini directive.
+        </para>
+       </note>
       </listitem>
      </varlistentry>
      
